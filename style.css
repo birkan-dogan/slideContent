@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main .container .title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    letter-spacing: .2rem;
+    color: rgb(64, 64, 254);
+}
+main .container .title .underline{
+    margin-top: .7rem;
+    width: 10vw;
+    background-color: lightblue;
+    height: .5vh;
+}
+.review{
+    width: 60vw;
+}
+.review .img-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    padding: 2rem;
+    box-shadow: 2px 2px 20px 2px rgb(125, 124, 124);
+}
+.review .img-container img{
+    width: 150px;
+    height: 120px;
+    border-radius: 30rem;
+    border-top: .7rem solid lightblue;
+}
+.review h4{
+    margin: 1rem;
+    text-transform: capitalize;
+    letter-spacing: .2rem;
+    font-weight: 700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.review #job{
+    color: rgb(36, 102, 125);
+    margin-bottom: .5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.review #info{
+    margin: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    text-indent: 1rem;
+    width: 50vw;
+    height: 20vh;
+    overflow: auto;
+}
+.button-container button{
+    font-size: 1.5rem;
+    color: coral;
+    border: none;
+    background-color: white;
+    margin: 1rem;
+    cursor: pointer;
+}
+button{
+    background-color: lightblue;
+    border: 1px solid blue;
+    padding: .6rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
